@@ -42,8 +42,8 @@ namespace APS
             }
         }
 
-        public List<Semaphore> _semaphorePool = new List<Semaphore>();
-        public List<Semaphore> SemaphorePool
+        public List<System.Threading.Semaphore> _semaphorePool = new List<System.Threading.Semaphore>();
+        public List<System.Threading.Semaphore> SemaphorePool
         {
             get
             {
