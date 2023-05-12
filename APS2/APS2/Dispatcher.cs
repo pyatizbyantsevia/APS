@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
-namespace APS
+namespace APS2
 {
     class Dispatcher
     {
@@ -16,7 +16,7 @@ namespace APS
                 if (taskToStartOrResume != null)
                     taskToStartOrResume.StartOrResume();
             }).Start();
-            if (callerTask != null) 
+            if (callerTask != null)
                 callerTask.Yield();
         }
     }

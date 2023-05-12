@@ -1,7 +1,9 @@
-﻿using System;
+﻿using APS2;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
-namespace APS
+namespace APS2
 {
     class OS
     {
@@ -34,7 +36,7 @@ namespace APS
 
         private List<Task> _taskPool = new List<Task>();
 
-        public List<Task> taskPool
+        public List<Task> TaskPool
         {
             get
             {
@@ -53,7 +55,7 @@ namespace APS
 
         public void Start()
         {
-            if (_taskPool.count > 0)
+            if (_taskPool.Count > 0)
             {
                 _taskPool[0].Activate(null);
             }
@@ -65,13 +67,13 @@ namespace APS
             {
                 try
                 {
-                    taskPool[1].ThreadToRun.Abort();
+                    TaskPool[1].ThreadToRun.Abort();
                 }
                 catch (Exception ex)
                 {
 
                 }
-                taskPool.Clear();
+                TaskPool.Clear();
                 _semaphorePool.Clear();
 
             }

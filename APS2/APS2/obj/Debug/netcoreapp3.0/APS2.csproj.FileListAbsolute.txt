@@ -1,0 +1,7 @@
+C:\Users\ilya_\source\repos\APS2\APS2\obj\Debug\netcoreapp3.0\APS2.csproj.AssemblyReference.cache
+C:\Users\ilya_\source\repos\APS2\APS2\obj\Debug\netcoreapp3.0\APS2.RtosForm.resources
+C:\Users\ilya_\source\repos\APS2\APS2\obj\Debug\netcoreapp3.0\APS2.csproj.GenerateResource.cache
+C:\Users\ilya_\source\repos\APS2\APS2\obj\Debug\netcoreapp3.0\APS2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilya_\source\repos\APS2\APS2\obj\Debug\netcoreapp3.0\APS2.AssemblyInfoInputs.cache
+C:\Users\ilya_\source\repos\APS2\APS2\obj\Debug\netcoreapp3.0\APS2.AssemblyInfo.cs
+C:\Users\ilya_\source\repos\APS2\APS2\obj\Debug\netcoreapp3.0\APS2.csproj.CoreCompileInputs.cache
